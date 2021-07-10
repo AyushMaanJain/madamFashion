@@ -94,7 +94,7 @@ and open the template in the editor.
     <body>
         <div class="header">
             <span class="h1">Madam Fashion</span>
-            <a href="https://wa.me/7669206000/?text=hello+friends" class="fa fa-shopping-cart"> </a>
+            <a href="https://wa.me/917669206000/?text=hello+friends" class="fa fa-shopping-cart"> </a>
         </div>
         <div class="body">
             <div class="page" id="main" style="display:block;">
@@ -274,12 +274,12 @@ and open the template in the editor.
                         if(add==="false"){
                         data+=product+"\n\n";
                         $(this).html("remove from cart");
-                        $(".fa-shopping-cart").attr("href","https://wa.me/7669206000/?text="+encodeURIComponent(data));
+                        $(".fa-shopping-cart").attr("href","https://wa.me/917669206000/?text="+encodeURIComponent(data));
                         $(this).attr("added","true");
                         }else if(add==="true"){
                             data=data.replace(product+"\n\n","");
                             $(this).html("add to cart");
-                            $(".fa-shopping-cart").attr("href","https://wa.me/7669206000/?text="+encodeURIComponent(data));
+                            $(".fa-shopping-cart").attr("href","https://wa.me/917669206000/?text="+encodeURIComponent(data));
                             $(this).attr("added","false");
                         }
                   //alert(data);
